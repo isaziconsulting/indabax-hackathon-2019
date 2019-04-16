@@ -10,6 +10,8 @@ If you run into any errors (e.g. out of memory or failing to load PyTorch), spen
 
 [Link to the presentation](https://docs.google.com/presentation/d/1yZJ4Xlj18syfkbPCAeBV_AmIf4a5KwHeX1Idb0cN0iE/edit?usp=sharing)
 
+[Link to a Google CoLab Notebook that you can use to run the starter code](https://colab.research.google.com/drive/15b5-aY6b9OYVXrW33PCOtX7BXDJcoX2a)
+
 ## Clone the repo
 
 On GitHub, click the `Fork` button in the top right corner. This will create a personal copy of the repo for you so that you can make changes and track them in Git (Please use Git!).
