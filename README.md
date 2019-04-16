@@ -8,6 +8,12 @@ If you have any questions about the challange, the dataset or model structure, a
 
 If you run into any errors (e.g. out of memory or failing to load PyTorch), spend 10 minutes trying to figure it out. If you are still having trouble, ask a tutor.
 
+## Clone the repo
+
+On GitHub, click the `Fork` button in the top right corner. This will create a personal copy of the repo for you so that you can make changes and track them in Git (Please use Git!).
+
+Then clone the repo and change directory to the repo directory.
+
 ## Installing Dependencies
 
 ### With Conda
@@ -25,19 +31,21 @@ source activate conda
 This assumes you have an Nvidia GPU and CUDA 9.
 
 
-### Without Conda
+### Without Conda (Recommended)
 
 If you don't like Conda, it's not hard to install everything without it:
 
 1.  Make sure you have Python 3.6 or later (`python3 -V`)
-2.  `python3 -m venv isazi-indabax-venv`
-3.  `. isazi-indabax-venv/bin/activate`
+2.  `python3 -m venv ./venv`
+3.  `. venv/bin/activate`
 4.  `pip install numpy`
 5.  `pip install torch torchvision`
 
 This will work even if you don't have a GPU.
 
 The last command will be slightly different if you have CUDA 8.
+
+If the first command fails with an error like `The virtual environment was not created successfully because ensurepip is not`, follow the instructions in the error message to install `python3-venv`. This will probably be something like `apt-get install python3-venv`.
 
 
 ## Test your installation
@@ -77,9 +85,9 @@ Avg. Epoch Loss: 2.793641
 Test Prediction
 ['', '', '', '', '', '', '', '']
 Test Ground Truth
-['697161160', '20021112', '982346', '6844519', '031205', '022060', '000823196', '19651116'] 
+['697161160', '20021112', '982346', '6844519', '031205', '022060', '000823196', '19651116']
 
-Avg. Test Loss: 2.6005  CER: 100.0%     WER: 1841/1841 (100.0%) 
+Avg. Test Loss: 2.6005  CER: 100.0%     WER: 1841/1841 (100.0%)
 ```
 
 
