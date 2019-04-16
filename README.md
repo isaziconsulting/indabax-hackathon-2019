@@ -8,6 +8,8 @@ If you have any questions about the challange, the dataset or model structure, a
 
 If you run into any errors (e.g. out of memory or failing to load PyTorch), spend 10 minutes trying to figure it out. If you are still having trouble, ask a tutor.
 
+[Link to the presentation](https://docs.google.com/presentation/d/1yZJ4Xlj18syfkbPCAeBV_AmIf4a5KwHeX1Idb0cN0iE/edit?usp=sharing)
+
 ## Clone the repo
 
 On GitHub, click the `Fork` button in the top right corner. This will create a personal copy of the repo for you so that you can make changes and track them in Git (Please use Git!).
@@ -99,6 +101,17 @@ Avg. Test Loss: 2.6005  CER: 100.0%     WER: 1841/1841 (100.0%)
 4.  Profit
 
 NOTE: the script only saves the model AFTER training has converged. You could modify the source to save it after every epoch, for example, so that you won't lose your progress if training stops for whatever reason.
+
+Here are some ideas to try:
+*  Other pretrained Conv layers (VGG, ResNet, ...)
+*  Batchnorm/dropout
+*  LSTMs vs GRUs
+*  Moar layers!
+*  Learning rate, optimization algo (ADAM, RMSprop, ...), stopping condition, ...
+*  Hyper parameter optimisation (filter sizes, pooling sizes, ...)
+*  Attention based sequence modelling
+*  Data augmentation (resize, rotate, ...)
+*  Something else you’ve been eager to try out ...
 
 
 ## Test your model
